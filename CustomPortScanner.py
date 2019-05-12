@@ -11,7 +11,7 @@ def main():
         print("\033[31m [*] Script is starting!\n [*] Please, wait...\033[32m")
         print(' [*] Script version is 1.0')
         nm.scan(host, ports, arguments=keys) # Checking all ports from ip
-        print(" Info about scaning: \n Server ip: %s\n Ports range: %s\n Arguments: -oX %s\n" % (host, ports, keys))
+        print(" Info about scanning: \n Server ip: %s\n Ports range: %s\n Arguments: -oX %s\n" % (host, ports, keys))
         def check():
                 if nm[host][proto][port]['name'] == '': 
                         nm[host][proto][port]['name'] = 'unknown service'
