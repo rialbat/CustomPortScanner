@@ -1,1 +1,1 @@
-Unnamed repository; edit this file 'description' to name the repository.
+Python port scanner, realized with nmap lib. Allows you to quickly check the server ports for openness and to understand which service uses them. 
